@@ -17,8 +17,8 @@ phases:
       - echo Build completed on this 'date'...
 artifacts:
   files:
-    - './build/**/*'
-  discard-paths: yes
-  base-directory: 'tasktrackerbuild2/build/'
+    - '**/*'
+  discard-paths: no
+  base-directory: build
    
 
